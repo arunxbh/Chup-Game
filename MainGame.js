@@ -4,6 +4,7 @@ import BackButton from "./components/BackButton";
 import Instructions from "./components/Instructions";
 import Timer from "./components/Timer";
 import { cardsData } from "./components/randomize";
+import { indianCards } from "./constants/IndianCards";
 
 const MainGame = ({ route, navigation }) => {
   //   const { players } = route.params;
@@ -13,6 +14,14 @@ const MainGame = ({ route, navigation }) => {
   const [showGameOverModal, setShowGameOverModal] = useState(false);
   const [cards, setCards] = useState(cardsData);
   const [isTimerRunning, setIsTimerRunning] = useState(false);
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
 
   const handleNewGame = () => {
     navigation.navigate("GameSetup");
@@ -30,6 +39,7 @@ const MainGame = ({ route, navigation }) => {
   const handleStartGame = () => {
     setTimerModalVisible(false);
     setIsTimerRunning(true);
+    shuffleArray(indianCards);
   };
 
   const onTimerEnd = () => {
