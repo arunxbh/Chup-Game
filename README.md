@@ -15,10 +15,9 @@ A digital implementation of the classic word-guessing game "Taboo" with a Desi t
 ## How to Use
 
 1. **Start the App**: Launch the Taboo Game app on your device.
-2. **Add Players**: Input the names of all participating players.
-3. **Begin Play**: Press 'Start Game' once all players are added.
-4. **Gameplay**: Follow the on-screen prompts to play through each turn.
-5. **Conclusion**: Use 'End Game' to finish and tally points to determine the winner.
+2. **Begin Play**: Press 'New Game' once the app is open.
+3. **Gameplay**: Follow the on-screen prompts to play through each turn.
+4. **Conclusion**: Use 'End Game' to finish and tally points to determine the winner.
 
 ## Running the App Locally
 
