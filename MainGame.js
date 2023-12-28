@@ -18,10 +18,6 @@ const MainGame = ({ route, navigation }) => {
     navigation.navigate("GameSetup");
   };
 
-  //   const handleRestart = () => {
-  //     navigation.navigate("MainGame", { players });
-  //   };
-
   const handleEndGame = () => {
     navigation.navigate("Home");
   };
@@ -75,7 +71,7 @@ const MainGame = ({ route, navigation }) => {
       }
       return newCards;
     });
-  }; // Added missing closing brace here
+  };
 
   return (
     <View style={styles.container}>
@@ -226,7 +222,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // This will "grey out" the background
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
   },
   modalView: {
     margin: 20,
@@ -270,16 +266,14 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 20,
     borderRadius: 10,
-    // Ensure there's enough space for the modal content
     width: "80%",
     alignItems: "center",
   },
-  //   new styles
   cardContainer: {
     backgroundColor: "#fff",
     borderRadius: 15,
     borderWidth: 2,
-    borderColor: "#6E44FF", // Purple border color
+    borderColor: "#6E44FF",
     padding: 20,
     alignItems: "center",
     justifyContent: "center",
@@ -303,19 +297,19 @@ const styles = StyleSheet.create({
   mainWord: {
     fontSize: 28,
     fontWeight: "bold",
-    color: "#6E44FF", // Purple text color
+    color: "#6E44FF",
     marginBottom: 10,
   },
   tabooWordsContainer: {
     alignItems: "center",
     borderTopWidth: 1,
-    borderTopColor: "#6E44FF", // Purple line color
+    borderTopColor: "#6E44FF",
     paddingTop: 10,
-    width: "100%", // Ensuring the line spans the entire width
+    width: "100%",
   },
   tabooWord: {
     fontSize: 20,
-    color: "#6E44FF", // Purple text color
+    color: "#6E44FF",
     marginTop: 5,
   },
 
@@ -328,17 +322,17 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     alignSelf: "center",
-    elevation: 2, // Optional: Adds a drop shadow for Android (iOS uses shadow props)
-    shadowColor: "#000000", // Optional: Shadow color for iOS
-    shadowOffset: { width: 0, height: 1 }, // Optional: Shadow offset for iOS
-    shadowOpacity: 0.3, // Optional: Shadow opacity for iOS
-    shadowRadius: 1, // Optional: Shadow blur radius for iOS
+    elevation: 2,
+    shadowColor: "#000000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.3,
+    shadowRadius: 1,
   },
   buttonText: {
     color: "white",
     fontWeight: "bold",
-    fontSize: 20, // Adjust as needed to fit the circle
-    textAlign: "center", // Ensure text is centered
+    fontSize: 20,
+    textAlign: "center",
   },
 });
 

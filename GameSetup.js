@@ -32,7 +32,7 @@ const GameSetupScreen = ({ navigation }) => {
     navigation.navigate("MainGame", { players });
   };
 
-  const isStartGameButtonDisabled = players.length < 0;
+  const isStartGameButtonDisabled = players.length < 4;
 
   return (
     <View style={styles.container}>
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   },
 
   scrollView: {
-    flex: 1, // Takes up the remaining space
+    flex: 1,
     marginTop: 0,
     width: "100%",
   },
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   addButton: {
-    backgroundColor: "#046307", // Emerald Green
+    backgroundColor: "#046307",
     padding: 10,
     borderRadius: 5,
     margin: 10,
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   disabledButton: {
-    backgroundColor: "#CCCCCC", // Light grey color to indicate the button is disabled
+    backgroundColor: "#CCCCCC",
   },
 });
 
