@@ -3,21 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Modal } from "react-native";
 import BackButton from "./components/BackButton";
 import Instructions from "./components/Instructions";
 import Timer from "./components/Timer";
-
-const cardsData = [
-  {
-    mainWord: "Bollywood",
-    tabooWords: ["Movies", "India", "Cinema", "Actors", "Mumbai"],
-  },
-  {
-    mainWord: "Diwali",
-    tabooWords: ["Festival", "Lights", "Hindu", "October", "Fireworks"],
-  },
-  {
-    mainWord: "Cricket",
-    tabooWords: ["Sport", "Bat", "Ball", "India", "Team"],
-  },
-];
+import { cardsData } from "./components/randomize";
 
 const MainGame = ({ route, navigation }) => {
   //   const { players } = route.params;
