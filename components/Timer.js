@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 const Timer = ({ onTimerEnd, isTimerRunning }) => {
-  const [seconds, setSeconds] = useState(60);
+  const [seconds, setSeconds] = useState(30);
 
   useEffect(() => {
     let interval;

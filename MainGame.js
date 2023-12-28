@@ -114,7 +114,7 @@ const MainGame = ({ route, navigation }) => {
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
             <Text style={styles.modalText}>
-              Pass the phone to the right for the next round!
+              Pass the phone to the next person!
             </Text>
             <TouchableOpacity
               style={styles.startGameButton}
