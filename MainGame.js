@@ -93,7 +93,7 @@ const MainGame = ({ route, navigation }) => {
         <View style={styles.centeredView}>
           <View style={styles.modalView}>
             <Text style={styles.modalText}>
-              When you hit "Start Game", a 30-second timer will begin.
+              When you hit "Start Game", a 60-second timer will begin.
               {"\n"}Once the timer runs out, your turn is over for the round.
             </Text>
             <TouchableOpacity
