@@ -27,7 +27,7 @@ const Timer = ({ onTimerEnd, isTimerRunning }) => {
 const styles = StyleSheet.create({
   timerContainer: {
     padding: 10,
-    marginBottom: 100,
+    marginTop: 50,
     backgroundColor: "white",
     borderRadius: 15,
     borderWidth: 2,

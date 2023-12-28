@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
 const Home = ({ navigation }) => {
   const handleNewGamePress = () => {
-    navigation.navigate("GameSetup");
+    navigation.navigate("MainGame");
   };
 
   return (
