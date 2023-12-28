@@ -2,6 +2,9 @@
 
 A digital implementation of the classic word-guessing game "Taboo" with a Desi twist, designed for mobile devices using React Native. In this game, players split into teams and try to guess as many words as possible within a given time limit, without using the taboo words listed with each main word.
 
+![Chup!](assets/sc1.png)
+![Gameplay!](assets/sc2.png)
+
 ## How the Game Works
 
 - **Game Setup**: Players enter their names to create their profiles in the app.
