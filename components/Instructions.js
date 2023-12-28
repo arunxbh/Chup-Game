@@ -34,16 +34,38 @@ const Instructions = ({ onClose }) => {
             {"\n"}Without using: Festival, Lights, Hindu, October, Fireworks
             {"\n\n"}Players may say "The biggest religious Indian event is:
             __________?".
-            {"\n\n"}How to win:
-            {"\n"}• Each team has 60 seconds to describe as many cards as
+            {"\n\n"}Players may NOT say "The festival of lights in Hindu culture
+            is: __________?".
+            {"\n\n"}How to play:
+            {"\n"}• Each team has 100 seconds to describe as many cards as
             possible.
             {"\n"}• Each correctly guessed card earns the guessing team 1 point.
             {"\n"}• You can skip cards if you do not know what is being
             described.
-            {"\n"}• After 60 seconds, rotate the person describing and start the
+            {"\n"}• After 100 seconds, move to a new clue-giver and start the
             clock again.
             {"\n"}• The game ends after all cards have been described or teams
             decide to end the game. The team with the most points wins!
+            {"\n\n"}How to use Chup!:
+            {"\n"}• If you want to skip a card, tap the card itself. This will
+            ensure the card comes up again later
+            {"\n"}• If a card is guessed correctly or you accidently use a
+            forbidden word, click the Chup! button, this will remove the card
+            from the deck for the rest of the game
+            {"\n\n"}How to track points:
+            {"\n"}The clue-giver must identify the person who guesses correctly
+            after each card by either pointing at them or shouting out their
+            name. You may use any points system you prefer. Some that we
+            reccomend are:
+            {"\n"}• Give each player a paper and pen, each player can track
+            their own points
+            {"\n"}• Keep a large deck of cards in the middle, anytime a player
+            gets a question right, they take a card. The team with the most
+            cards at the end wins
+            {"\n\n"}Chup! has a total of ~300 cards, keeping the fun going for a
+            long time!
+            {"\n\n"}When you are ready, close this instructions page to start
+            playing!
           </Text>
         </ScrollView>
         <TouchableOpacity style={styles.closeButton} onPress={onClose}>
