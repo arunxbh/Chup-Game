@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   instructionsModal: {
-    marginTop: 10,
+    marginTop: 20,
     padding: 20,
   },
   instructionsTitle: {
@@ -78,9 +78,10 @@ const styles = StyleSheet.create({
   },
   closeButton: {
     backgroundColor: "#046307",
-    padding: 10,
-    borderRadius: 0,
+    padding: 20,
+    borderRadius: 15,
     alignItems: "center",
+    margin: 10,
   },
   closeButtonText: {
     color: "white",
